@@ -1,0 +1,105 @@
+/* Estilo general para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    height: 100vh;
+    padding-top: 30px; /* Agregué un poco de espacio arriba */
+}
+
+/* Estilo del contenedor del examen */
+.conteiner {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+/* Estilo para los encabezados del examen */
+header h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+    padding-bottom: 10px; /* Espaciado extra en la parte inferior */
+}
+
+header h2 {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Estilo para el campo de nombre */
+#nombre-alumno {
+    margin-bottom: 20px;
+}
+
+#nombre {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+/* Estilo para las preguntas */
+section {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+h3 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+/* Estilo para los botones */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo para los resultados */
+#resultados {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: #444;
+    text-align: left;
+}
+
+/* Estilo para los mensajes de respuesta */
+#resultados h3 {
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#resultados br {
+    line-height: 1.8;
+}
+

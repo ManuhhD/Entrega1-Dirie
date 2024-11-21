@@ -7,7 +7,7 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
-    align-items: flex-start; 
+    align-items: flex-start; /* Cambié de 'center' a 'flex-start' para que el contenido esté más arriba */
     height: 100vh;
     padding-top: 30px; /* Agregué un poco de espacio arriba */
 }
